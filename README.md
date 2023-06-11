@@ -6,15 +6,20 @@ The dynamic component loader is useful when you want to load components dynamica
 
 Here's a step-by-step explanation of how the dynamic component loader works in Angular:
 
-Create a dynamic component: First, you need to define a component that you want to load dynamically. This component should implement the Component interface and have its own template, styles, and logic.
+## Create a dynamic component: 
+First, you need to define a component that you want to load dynamically. This component should implement the Component interface and have its own template, styles, and logic.
 
-Create a dynamic component container: Next, create a container component that will serve as the placeholder for the dynamically loaded component. This container component will have a placeholder in its template where the dynamic component will be inserted.
+## Create a dynamic component container: 
+Next, create a container component that will serve as the placeholder for the dynamically loaded component. This container component will have a placeholder in its template where the dynamic component will be inserted.
 
-Use the ComponentFactoryResolver: The ComponentFactoryResolver is a service provided by Angular that allows you to create instances of components dynamically. Inject the ComponentFactoryResolver in the component where you want to load the dynamic component.
+## Use the ComponentFactoryResolver: 
+The ComponentFactoryResolver is a service provided by Angular that allows you to create instances of components dynamically. Inject the ComponentFactoryResolver in the component where you want to load the dynamic component.
 
-Resolve the component factory: Use the ComponentFactoryResolver to resolve the factory for the dynamic component you want to load. The factory provides a way to create instances of the component.
+## Resolve the component factory: 
+Use the ComponentFactoryResolver to resolve the factory for the dynamic component you want to load. The factory provides a way to create instances of the component.
 
-Create and insert the component: Once you have the component factory, you can use it to create an instance of the dynamic component. Then, you can insert this component into the container component's view using the ViewContainerRef and createComponent method.
+## Create and insert the component: 
+Once you have the component factory, you can use it to create an instance of the dynamic component. Then, you can insert this component into the container component's view using the ViewContainerRef and createComponent method.
 
 Here's an example that demonstrates how to use the dynamic component loader in Angular:
 
