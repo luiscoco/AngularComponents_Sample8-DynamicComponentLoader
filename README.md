@@ -68,6 +68,4 @@ When you click the "Load Dynamic Component" button, an instance of the DynamicCo
 
 Note: Don't forget to add the DynamicComponent to the entryComponents array in the module where the DynamicComponentLoaderComponent is declared, as it is required for dynamic component loading to work properly.
 
-Overall, the dynamic component
-
 
