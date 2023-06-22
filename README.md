@@ -2,6 +2,8 @@
 
 https://angular.io/guide/dynamic-component-loader
 
+https://stackblitz.com/~/github.com/luiscoco/AngularComponents_Sample8-DynamicComponentLoader
+
 In Angular, the Dynamic Component Loader (also known as Dynamic Component Creation or Dynamic Component Injection) is a feature that allows you to dynamically load and render components at runtime. It provides a way to create components programmatically and add them to the view hierarchy dynamically, rather than having them defined statically in the template.
 
 The dynamic component loader is useful when you want to load components dynamically based on certain conditions or user interactions, or when you need to create components dynamically in response to data fetched from an API.
